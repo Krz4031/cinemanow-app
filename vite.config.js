@@ -3,5 +3,6 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/cinemanow-app/",
+  // ❌ เอา base ของ GitHub Pages ออก
+  // base: "/cinemanow-app/",
 });
